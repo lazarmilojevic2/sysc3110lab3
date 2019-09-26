@@ -16,13 +16,14 @@ public class AddressBook {
 		this.buddies.remove(b);
 	}
 	
-	public static void main(String[][] args) {
+	public static void main(String[] args) {
 		System.out.println("Address Book");
 		
 		BuddyInfo test = new BuddyInfo();
 		AddressBook adr = new AddressBook();
 		adr.addBuddy(test);
 		adr.removeBuddy(test);
+		System.out.println("yeet");
 	}
 	
 }
